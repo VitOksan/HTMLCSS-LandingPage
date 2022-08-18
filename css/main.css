@@ -89,7 +89,7 @@ section { display: flex; }
 
 
 .hero {
-    background-image: url('..img/hero.jpg');
+    background-image: url('../img/hero.jpg');
     height: 400px;
     background-position: center center;
     background-size: cover;

@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 /************************************** */
 .container { margin: 0 auto; max-width: 1170px; }
 section { display: flex; }
+
 .flex { display: flex; }
 .flex-column { flex-direction: column; }
 .flex-one { flex: 1; }
@@ -37,5 +38,14 @@ section { display: flex; }
 .text-light { font-size: 30px; color: #A0A0A0; }
 .text-secondary { font-size: 30px; color: #faa541; }
 .text-primary { font-size: 16px; color: #364147; } 
-.header-nav { border-bottom: 1px; color: #a0a0a0; }
-.brand { size: 170x85px; margin-left: 15px; margin-right: 60px; }
+
+
+.header-nav { border-bottom: 1px solid: #a0a0a0; }
+
+.brand {
+     width: 170px;
+     height: 85px; 
+     margin-left: -15px; 
+     margin-right: 60px; 
+}
+.logo { max-width: 100%; height: auto; }
